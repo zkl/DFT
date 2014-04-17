@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dftclient", "dftclient\dftclient.vcproj", "{665022B9-AA54-4312-8404-CCC82A1DA100}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dftserver", "dftserver\dftserver.vcproj", "{D9166873-CD02-4D9C-A441-E50071FE7501}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{665022B9-AA54-4312-8404-CCC82A1DA100}.Debug|Win32.ActiveCfg = Debug|Win32
+		{665022B9-AA54-4312-8404-CCC82A1DA100}.Debug|Win32.Build.0 = Debug|Win32
+		{665022B9-AA54-4312-8404-CCC82A1DA100}.Release|Win32.ActiveCfg = Release|Win32
+		{665022B9-AA54-4312-8404-CCC82A1DA100}.Release|Win32.Build.0 = Release|Win32
+		{D9166873-CD02-4D9C-A441-E50071FE7501}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D9166873-CD02-4D9C-A441-E50071FE7501}.Debug|Win32.Build.0 = Debug|Win32
+		{D9166873-CD02-4D9C-A441-E50071FE7501}.Release|Win32.ActiveCfg = Release|Win32
+		{D9166873-CD02-4D9C-A441-E50071FE7501}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
