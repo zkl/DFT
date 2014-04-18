@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dftclient", "dftclient\dftclient.vcproj", "{665022B9-AA54-4312-8404-CCC82A1DA100}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dftserver", "dftserver\dftserver.vcproj", "{D9166873-CD02-4D9C-A441-E50071FE7501}"
+	ProjectSection(ProjectDependencies) = postProject
+		{665022B9-AA54-4312-8404-CCC82A1DA100} = {665022B9-AA54-4312-8404-CCC82A1DA100}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

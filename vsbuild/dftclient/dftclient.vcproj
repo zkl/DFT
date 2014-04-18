@@ -41,6 +41,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
+				AdditionalIncludeDirectories="&quot;$(SolutionDir)/../src/common&quot;"
 				PreprocessorDefinitions="WIN32;_DEBUG;_CONSOLE"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -60,6 +61,7 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
+				AdditionalDependencies="WS2_32.lib"
 				LinkIncremental="2"
 				GenerateDebugInformation="true"
 				SubSystem="1"
@@ -171,11 +173,11 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath="..\..\src\client\coderprs.cpp"
+				RelativePath="..\..\src\common\coderprs.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\src\client\list.cpp"
+				RelativePath="..\..\src\common\list.cpp"
 				>
 			</File>
 			<File
@@ -183,7 +185,7 @@
 				>
 			</File>
 			<File
-				RelativePath="..\..\src\client\socketwrp.cpp"
+				RelativePath="..\..\src\common\socketwrp.cpp"
 				>
 			</File>
 		</Filter>
@@ -193,15 +195,15 @@
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
 			<File
-				RelativePath="..\..\src\client\coderprs.h"
+				RelativePath="..\..\src\common\coderprs.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\src\client\list.h"
+				RelativePath="..\..\src\common\list.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\src\client\socketwrp.h"
+				RelativePath="..\..\src\common\socketwrp.h"
 				>
 			</File>
 		</Filter>
